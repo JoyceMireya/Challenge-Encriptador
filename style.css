@@ -139,8 +139,8 @@
 }
 .section2 textarea {
     border: none;
-    background-color:white;
-    width: 100%;
+    background-color: white;
+    width: 200%;
     height: 300px;
     font-size: 25px;
     resize: none;
