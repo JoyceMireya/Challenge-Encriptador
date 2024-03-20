@@ -167,14 +167,15 @@
     height: 563px;
 }
 
+.pie{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
 .copyright{
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 20px;
-    width: 80%;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -195,15 +196,16 @@
     textarea {
         height: 100px;
     }
+}
 
-    .copyright {
-        flex-direction: column; /* Cambia la dirección de la flexbox a columna */
-        align-items: center; /* Centra verticalmente el contenido */
-    }
+/*media query para dispositivos moviles*/
+@media screen and (max-width: 768px){
+.copyright {
+    flex-direction: column; /* Cambia la dirección de la flexbox a columna */
 }
 
 
-/* SNIPER borrador*/
+/* SNIPER*/
 .sk-circle {
     margin: 100px auto;
     width: 40px;
