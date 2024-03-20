@@ -170,16 +170,17 @@
 .pie{
     background-color: #333;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    padding: auto;
+
+
 }
-.copyright{
-    display: flex;
+.copyright {
+    display: inline-block;
     flex-direction: column;
-    text-align: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     .container {
         width: 95%;
@@ -196,14 +197,12 @@
     textarea {
         height: 100px;
     }
+    .copyright {
+        flex-direction: column;  /*Cambia la dirección de la flexbox a columna */
+        text-align: center;
+        
 }
-
-/*media query para dispositivos moviles*/
-@media screen and (max-width: 768px){
-.copyright {
-    flex-direction: column; /* Cambia la dirección de la flexbox a columna */
 }
-
 
 /* SNIPER*/
 .sk-circle {
