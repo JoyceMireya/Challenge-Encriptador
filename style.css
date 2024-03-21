@@ -198,12 +198,15 @@
       height: 250px;
     }
   
-    textarea {
+    .textarea {
       height: 100px;
     }
     .section2 img {
       width: 100px;
     }
+    .footer-logos img {
+        width: 100px;
+      }
   }
   
   /* SNIPER*/
